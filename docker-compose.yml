@@ -11,6 +11,10 @@ services:
       ngrok start --all
     volumes:
     - .:/home/ngrok/.ngrok2/
+    depends_on:
+    - simple-web
+    - ssh-server
+    - nginx
   simple-web:
     build: simple-web/
   ssh-server:
