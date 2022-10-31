@@ -1,4 +1,4 @@
-authtoken: ${YOUR_TOKEN}
+authtoken: 2GtKLVJithbMpmQqHkOU3iKJNvh_6pvbFcpXpU6UEPtYiEqya
 web_addr: 0.0.0.0:8081
 update: false
 log: stdout
