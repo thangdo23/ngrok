@@ -11,5 +11,5 @@ tunnels:
     addr: nginx:8080
     proto: http
   webdemo:
-    addr: http://10.90.8.201:80
-    proto: http
+    addr: 10.90.8.201:80
+    proto: tcp
