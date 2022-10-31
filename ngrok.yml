@@ -10,3 +10,6 @@ tunnels:
   app-foo:
     addr: nginx:8080
     proto: http
+  webdemo:
+    addr: http://10.90.8.201:80
+    proto: http
