@@ -8,5 +8,5 @@ tunnels:
     addr: nginx:8080
     proto: http
   webdemo:
-    addr: 10.90.8.30
+    addr: dsclocal:81
     proto: http
