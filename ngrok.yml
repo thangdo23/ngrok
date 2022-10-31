@@ -5,5 +5,5 @@ log: stdout
 
 tunnels:
   webdemo:
-    addr: 10.90.8.201:81
+    addr: 10.90.8.201:80
     proto: http
