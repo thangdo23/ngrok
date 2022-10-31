@@ -4,12 +4,9 @@ update: false
 log: stdout
 
 tunnels:
-  ssh-access:
-    addr: ssh-server:22
-    proto: tcp
   app-foo:
     addr: nginx:8080
     proto: http
   webdemo:
-    addr: 10.90.8.201:80
-    proto: tcp
+    addr: 10.90.8.201
+    proto: http
