@@ -4,9 +4,6 @@ update: false
 log: stdout
 
 tunnels:
-  app-foo:
-    addr: nginx:8080
-    proto: http
   webdemo:
     addr: 10.90.8.201:81
     proto: http
